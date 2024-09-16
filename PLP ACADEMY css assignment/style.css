@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:burlywood;
+    place-content: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img{
+    border-radius: 80px;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    place-content: center;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
